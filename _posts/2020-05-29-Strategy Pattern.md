@@ -24,7 +24,8 @@ class Duck {
   IQuackBehavior qb;
   IDisplayBehavior db;
 
-  public Duck (IFlyBehavior fb, IQuackBehavior fb, IDisplayBehavior db) {
+  public Duck (IFlyBehavior fb, IQuackBehavior fb,
+               IDisplayBehavior db) {
     this.fb = fb;
     this.qb = qb;
     this.db = db;
