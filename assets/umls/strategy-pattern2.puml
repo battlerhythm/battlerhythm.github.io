@@ -1,0 +1,63 @@
+@startuml
+
+class Duck {
+  quack()
+  display()
+  fly()
+}
+
+interface IQuackBehavior {
+  quack()
+}
+
+class SimpleQuack {
+  quack()
+}
+
+class NoQuack {
+  quack()
+}
+
+interface IFlyBehavior {
+  fly()
+}
+
+class SimpleFly {
+  fly()
+}
+
+class JetFly {
+  fly()
+}
+
+class NoFly {
+  fly()
+}
+
+interface IDisplayBehavior {
+  display()
+}
+
+class DisplayAsText {
+  display()
+}
+
+class DisaplyAsGraphics {
+  display()
+}
+
+Duck -> IQuackBehavior
+IFlyBehavior <- Duck
+Duck --> IDisplayBehavior
+
+IQuackBehavior <|-- SimpleQuack
+IQuackBehavior <|-- NoQuack
+
+IFlyBehavior <|-- SimpleFly
+IFlyBehavior <|-- JetFly
+IFlyBehavior <|-- NoFly
+
+IDisplayBehavior <|-- DisplayAsText
+IDisplayBehavior <|-- DisaplyAsGraphics
+
+@enduml

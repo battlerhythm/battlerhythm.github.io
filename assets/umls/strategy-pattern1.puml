@@ -1,0 +1,38 @@
+@startuml
+
+class Duck {
+  quack()
+  display()
+  fly()
+}
+
+class CityDuck {
+  display()
+}
+
+class WildDuck {
+  display()
+}
+
+class RubberDuck {
+  display()
+  fly()
+}
+
+class MountinDuck {
+  display()
+  fly()
+}
+
+class CloudDuck {
+  display()
+  fly()
+}
+
+Duck <|-- CityDuck
+Duck <|-- WildDuck
+Duck <|-- RubberDuck
+MountinDuck -|> Duck
+Duck <|- CloudDuck 
+
+@enduml
