@@ -25,7 +25,7 @@ class WindowDisplay {
   update()
 }
 
-IObserable -> "1..*" IObserver
+IObserable -> "0..*" IObserver
 
 IObserable <|-- WeatherStation
 IObserver <|-- PhoneDisplay
