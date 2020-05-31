@@ -1,0 +1,35 @@
+@startuml
+
+interface IObserable {
+  add(IObserber)
+  remove(IObserver)
+  notify()
+}
+
+interface IObserver {
+  update()
+}
+
+class WeatherStation {
+  add(IObserver)
+  remove(IObeserver)
+  notify()
+  getTemperature()
+}
+
+class PhoneDisplay {
+  update()
+}
+
+class WindowDisplay {
+  update()
+}
+
+IObserable -> "1..*" IObserver
+
+IObserable <|-- WeatherStation
+IObserver <|-- PhoneDisplay
+IObserver <|-- WindowDisplay
+
+
+@enduml
