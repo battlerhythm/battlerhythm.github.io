@@ -4,7 +4,7 @@ excerpt_separator: "<!--more-->"
 categories:
   - Blog
 tags:
-  - Design Pattern
+  - Design Patterns
   - Strategy Pattern
 ---
 
