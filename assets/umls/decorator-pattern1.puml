@@ -1,0 +1,29 @@
+@startuml
+
+abstract Beverage {
+  getDesc()
+  cost()
+  hasMilk()
+  hasSoy()
+  hasCaramel()
+  hasWhipped()
+  hasChocolate()
+}
+
+class Decaf {
+  cost()
+}
+
+class Espresso {
+  cost()
+}
+
+class Tea {
+  cost()
+}
+
+Beverage <|-- Decaf
+Beverage <|-- Espresso
+Beverage <|-- Tea
+
+@enduml

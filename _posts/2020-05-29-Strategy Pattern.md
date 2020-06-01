@@ -8,11 +8,15 @@ tags:
   - Strategy Pattern
 ---
 
-## Not good design  
+Key words: Dependency injection
+
+## UML
+
+### Not Good Design  
 
 ![Inheritance](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/strategy-pattern1.puml)
 
-## Better design  
+### Better Design  
 
 ![Composite](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/strategy-pattern2.puml)
 

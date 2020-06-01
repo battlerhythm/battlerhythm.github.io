@@ -12,6 +12,8 @@ Key words: Push vs Poll
 
 ## UML  
 
+### Better Design
+
 ![Composite](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/observer-pattern.puml)
 
 ## Pseudo Code

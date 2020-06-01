@@ -1,0 +1,37 @@
+@startuml
+
+abstract Beverage {
+  getDesc()
+  cost()
+}
+
+class Decaf {
+  cost()
+}
+
+class Espresso {
+  cost()
+}
+
+abstract AddonDecorator {
+  getDesc()
+}
+
+class Caramel {
+  getDesc()
+  cost()
+}
+
+class Soy {
+  getDesc()
+  cost()
+}
+
+Beverage <|- AddonDecorator
+Beverage <- AddonDecorator
+Beverage <|-- Decaf
+Beverage <|-- Espresso
+AddonDecorator <|-- Caramel
+AddonDecorator <|-- Soy
+
+@enduml
