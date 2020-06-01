@@ -1,11 +1,11 @@
 ---
-title: "Design Patterns - Observer Pattern"
+title: "Design Patterns - Decorator Pattern"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
 tags:
   - Design Patterns
-  - Observer Pattern
+  - Decorator Pattern
 ---
 
 Key words: Class explosion, Recursive function, Deprecated function
