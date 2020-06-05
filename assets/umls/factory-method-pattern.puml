@@ -1,0 +1,27 @@
+@startuml
+
+interface Animal
+class Dog
+class Cat
+class Duck
+
+interface AnimalFactory {
+  Animal createAnimal()
+}
+
+class RandomFactory {
+  Animal createAnimal()
+}
+
+class BalancedFactory {
+  Animal createAnimal()
+}
+
+Animal <|-- Dog
+Animal <|-- Cat
+Animal <|-- Duck
+
+AnimalFactory <|-- BalancedFactory
+AnimalFactory <|-- RandomFactory
+
+@enduml

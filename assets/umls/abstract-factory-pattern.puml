@@ -1,0 +1,52 @@
+@startuml
+
+interface Factory {
+  Product getProductA()
+  Product getProductB()
+}
+
+
+class ConcreteFactory1 {
+  Product getProductA()
+  Product getProductB()
+}
+
+class ConcreteFactory2 {
+  Product getProductA()
+  Product getProductB()
+}
+
+class ConcreteFactory3 {
+  Product getProductA()
+  Product getProductB()
+}
+
+interface ProductA
+interface ProductB
+together {
+  class ConcreteProductA1
+  class ConcreteProductA2
+  class ConcreteProductA3
+}
+class ConcreteProductB1
+class ConcreteProductB2
+class ConcreteProductB3
+
+
+Factory <|-- ConcreteFactory1
+Factory <|-- ConcreteFactory2
+Factory <|-- ConcreteFactory3
+ConcreteProductA1 --|> ProductA
+ConcreteProductA2 --|> ProductA
+ConcreteProductA3 --|> ProductA
+ConcreteProductB1 --|> ProductB
+ConcreteProductB2 --|> ProductB
+ConcreteProductB3 --|> ProductB
+ConcreteFactory1 -down--> ConcreteProductA1
+ConcreteFactory1 -down--> ConcreteProductB1
+ConcreteFactory2 -down--> ConcreteProductA2
+ConcreteFactory2 -down--> ConcreteProductB2
+ConcreteFactory3 -down--> ConcreteProductA3
+ConcreteFactory3 -down--> ConcreteProductB3
+
+@enduml
