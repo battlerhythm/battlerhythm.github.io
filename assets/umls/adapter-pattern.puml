@@ -1,0 +1,21 @@
+@startuml
+
+class client
+
+interface ITarget {
+  request()
+}
+
+class Adapter {
+  request()
+}
+
+class Adaptee {
+  specificRequest()
+}
+
+client -> ITarget
+ITarget <|-- Adapter
+Adapter -> Adaptee
+
+@enduml
