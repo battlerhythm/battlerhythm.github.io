@@ -1,0 +1,19 @@
+@startuml
+
+interface ISubject {
+  request()
+}
+
+class RealSubject {
+  request()
+}
+
+class Proxy {
+  request()
+}
+
+ISubject <|-- RealSubject
+ISubject <|-- Proxy
+RealSubject <- Proxy : "Controling Access"
+
+@enduml
