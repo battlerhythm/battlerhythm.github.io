@@ -14,7 +14,7 @@ Key words: Multiple Factory Methods, Complementary Class (ex, Resources for Ligh
 
 ### Abstract Factory Pattern
 
-![Composite](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/abstract-factory-pattern.puml)
+![Abstract Factory](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/abstract-factory-pattern.puml)
 
 ## Reference
 

@@ -14,7 +14,7 @@ Key words: Global access point of the instance
 
 ### Abstract Factory Pattern
 
-![Composite](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/singleton-pattern.puml)
+![Singleton](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/singleton-pattern.puml)
 
 ## Pseudo Code
 
