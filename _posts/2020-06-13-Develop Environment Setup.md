@@ -170,7 +170,7 @@ tags:
 
 1. Script docker-compose.yml like below
 
-    ```docker-compose
+    ```yml
     version: "3"
 
     services:
