@@ -61,7 +61,6 @@ tags:
 
     ```bash
     sudo apt install git
-
     ```
 
 3. Repo install
