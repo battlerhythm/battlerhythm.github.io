@@ -1,0 +1,30 @@
+@startuml
+
+abstract View {
+  View(Resource)
+  String show()
+}
+
+class LongForm {
+  String show()
+}
+
+interface IResource {
+  snippet()
+  image()
+  title()
+  url()
+}
+
+class ArtistResource {
+  snippet()
+  image()
+  title()
+  url()
+}
+
+View -> IResource
+View <|-- LongForm
+IResource <|-- ArtistResource
+
+@enduml
