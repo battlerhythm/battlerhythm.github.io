@@ -1,0 +1,42 @@
+@startuml
+
+abstract Record {
+  save()
+  beforeSave()
+  afterSave()
+  failedSave()
+}
+
+note right of Record::save
+// Template Method
+this.beforeSave()
+// DB Query
+if(OK) {
+  this.afterSave()
+} else {
+  this.FailedSave()
+}
+end note
+
+note left of Record::beforeSave
+No implementation
+end note
+
+class User {
+  username
+  beforeSave()
+  afterSave()
+  failedSave()
+}
+
+class Post {
+  text
+  beforeSave()
+  afterSave()
+  failedSave()
+}
+
+Record <|-- User
+Record <|-- Post
+
+@enduml

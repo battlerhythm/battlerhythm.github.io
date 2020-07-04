@@ -14,7 +14,7 @@ Key words: Not change under laying behavior
 
 ### Adapter Pattern
 
-![Command](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/adapter-pattern.puml)
+![Adapter](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/adapter-pattern.puml)
 
 ## Pseudo Code
 
