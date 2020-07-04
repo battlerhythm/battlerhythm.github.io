@@ -28,7 +28,7 @@ Proxy controls access while the adapter says I only change the interface, I don'
 
 Facade has none of this dependency injection or that stuff. The facade is a term that we use simply when you have a scenario where you have complex subsystem and then you throw a facade in between you say here's the wall use this simpler thing and this simpler thing will interact with all that complexity from the subsystem and again this is not the same as proxy because it doesn't necessarily require the facade to have the same interface as anything in the subsystem and it's not the same as the adapter because it doesn't necessarily adapt from one interface to another it. I mean the facade has a single interface but the subsystem might have a bazillion interfaces. So it's simply a way of hiding some complexity of some subsystem.
 
-### [Bridge](blog/Bridge-Pattern/)
+## [Bridge](blog/Bridge-Pattern/)
 
 The Bridge pattern is perhaps actually most easily thought of as an extension of the strategy pattern. It's like the strategy pattern but where the context that uses the strategy also is an inheritance hierarchy or also is a polymorphic hierarchy so you have two inheritance hierarchy or two polymorphic hierarchies and one of the hierarchies uses things from the other hierarchies so you can take anything from the first hierarchy and pair it up with anything from second hierarchy and that's a valid pair so in some sense it's a way of avoiding duplication of code and increasing reusability.
 
