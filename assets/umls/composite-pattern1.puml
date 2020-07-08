@@ -1,0 +1,24 @@
+@startuml
+
+interface Component {
+  operation()
+}
+
+class Leaf {
+  operation()
+}
+
+class Composite {
+  operation()
+}
+
+Component <|-- Leaf
+Component <|-- Composite
+Composite o-- Component
+
+Class1 <-- Class2 : Association
+Class3 o-- Class4 : Aggregation
+
+note "Has a relationship" as N1
+
+@enduml

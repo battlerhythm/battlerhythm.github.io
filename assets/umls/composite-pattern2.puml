@@ -1,0 +1,19 @@
+@startuml
+
+interface TodoList {
+  operation()
+}
+
+class Todo {
+  operation()
+}
+
+class Project {
+  operation()
+}
+
+TodoList <|-- Todo
+TodoList <|-- Project
+Project o-- TodoList
+
+@enduml
