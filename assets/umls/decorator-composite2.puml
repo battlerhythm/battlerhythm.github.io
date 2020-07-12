@@ -1,0 +1,18 @@
+@startuml
+
+object Composite1
+object Composite2
+object Composite3
+object Leaf1
+object Leaf2
+object Leaf3
+object Leaf4
+
+Composite1 --> Composite2
+Composite1 --> Composite3
+Composite2 --> Leaf1
+Composite2 --> Leaf2
+Composite3 --> Leaf3
+Composite3 --> Leaf4
+
+@enduml

@@ -1,0 +1,18 @@
+@startuml
+
+object Component
+object Decorator1
+object Decorator2
+object Decorator3
+object Decorator4
+object Decorator5
+object Decorator6
+
+Component <-- Decorator1
+Component <-- Decorator2
+Decorator1 <-- Decorator3
+Decorator1 <-- Decorator4
+Decorator2 <-- Decorator5
+Decorator2 <-- Decorator6
+
+@enduml
