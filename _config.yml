@@ -59,6 +59,7 @@ plugins:
 
 author:
   name   : "Jeongmin Oh"
+  url: "https://battlerhythm.github.io"
   avatar : "https://avatars3.githubusercontent.com/battlerhythm?v=3"
   # bio    : # "My awesome biography constrained to a sentence or two goes here."
   links:
