@@ -23,7 +23,10 @@ twitter_username: #username
 github_username: #username
 minimal_mistakes_skin: default # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
-google_analytics: G-5CNZY7GM3Z
+analytics:
+  provider: "custom"
+  google:
+    tracking_id: "G-5CNZY7GM3Z"
 
 # Build settings
 markdown: kramdown
