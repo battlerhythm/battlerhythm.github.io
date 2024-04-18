@@ -61,10 +61,10 @@ author:
   name   : "Jeongmin Oh"
   # avatar : "/assets/images/bio-photo.jpg"
   # bio    : # "My awesome biography constrained to a sentence or two goes here."
-  # links:
-  #   - label: "Website"
-  #     icon: "fas fa-fw fa-link"
-  #     url: "https://"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://battlerhythm.github.io"
   #   - label: "Twitter"
   #     icon: "fab fa-fw fa-twitter-square"
   #     url: "https://twitter.com/"
