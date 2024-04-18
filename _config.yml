@@ -24,7 +24,10 @@ github_username: #username
 minimal_mistakes_skin: default # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
 analytics:
-  provider: "custom"
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-5CNZY7GM3Z"
+    anonymize_ip: false # default
 
 # Build settings
 markdown: kramdown
