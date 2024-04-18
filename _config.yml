@@ -65,6 +65,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://battlerhythm.github.io"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jmoh85/"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
@@ -77,11 +80,7 @@ author:
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://www.instagram.com/thought_of_jm/"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/jmoh85/"
     
-
 # footer:
   # links:
     # - label: "Twitter"
