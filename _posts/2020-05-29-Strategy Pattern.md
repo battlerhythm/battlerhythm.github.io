@@ -14,7 +14,7 @@ Key words: Dependency injection
 
 ### Not Good Design  
 
-![Inheritance](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/strategy-pattern1.puml)
+![Inheritance](/assets/images/strategy-pattern1.png)
 
 ### Better Design  
 
