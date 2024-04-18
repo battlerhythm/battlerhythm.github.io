@@ -2,9 +2,8 @@
 title: "Design Patterns - Structural Patterns (Comparison)"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
-tags:
   - Design Patterns
+tags:
   - Structural Patterns
 ---
 

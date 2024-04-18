@@ -2,9 +2,8 @@
 title: "Design Patterns - Strategy Pattern"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
-tags:
   - Design Patterns
+tags:
   - Strategy Pattern
 ---
 

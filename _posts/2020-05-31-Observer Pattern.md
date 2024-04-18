@@ -2,9 +2,8 @@
 title: "Design Patterns - Observer Pattern"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
-tags:
   - Design Patterns
+tags:
   - Observer Pattern
 ---
 

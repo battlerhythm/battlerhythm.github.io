@@ -2,9 +2,8 @@
 title: "Design Patterns - Factory Method Pattern"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
-tags:
   - Design Patterns
+tags:
   - Factory Method Pattern
 ---
 

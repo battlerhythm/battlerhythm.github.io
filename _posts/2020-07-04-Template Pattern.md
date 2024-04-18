@@ -2,9 +2,8 @@
 title: "Design Patterns - Template Pattern"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
-tags:
   - Design Patterns
+tags:
   - Template Pattern
 ---
 

@@ -2,9 +2,8 @@
 title: "Design Patterns - Proxy Pattern"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
-tags:
   - Design Patterns
+tags:
   - Proxy Pattern
 ---
 

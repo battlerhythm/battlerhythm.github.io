@@ -2,9 +2,8 @@
 title: "Design Patterns - Command Pattern"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
-tags:
   - Design Patterns
+tags:
   - Command Pattern
 ---
 

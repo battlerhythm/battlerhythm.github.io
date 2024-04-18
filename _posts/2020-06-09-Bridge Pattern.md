@@ -2,9 +2,8 @@
 title: "Design Patterns - Bridge Pattern"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
-tags:
   - Design Patterns
+tags:
   - Bridge Pattern
 ---
 

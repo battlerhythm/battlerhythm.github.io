@@ -2,9 +2,8 @@
 title: "Design Patterns - Adapter Pattern"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
-tags:
   - Design Patterns
+tags:
   - Adapter Pattern
 ---
 

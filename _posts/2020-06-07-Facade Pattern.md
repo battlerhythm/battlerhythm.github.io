@@ -2,9 +2,8 @@
 title: "Design Patterns - Facade Pattern"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
-tags:
   - Design Patterns
+tags:
   - Facade Pattern
 ---
 

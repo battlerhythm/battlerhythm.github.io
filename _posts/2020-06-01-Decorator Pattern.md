@@ -2,9 +2,8 @@
 title: "Design Patterns - Decorator Pattern"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
-tags:
   - Design Patterns
+tags:
   - Decorator Pattern
 ---
 

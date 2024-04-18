@@ -2,9 +2,8 @@
 title: "Design Patterns - Abstract Factory Pattern"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
-tags:
   - Design Patterns
+tags:
   - Abstract Factory Pattern
 ---
 

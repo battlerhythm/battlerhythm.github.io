@@ -2,9 +2,8 @@
 title: "Design Patterns - Singleton Pattern"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
-tags:
   - Design Patterns
+tags:
   - Singleton Pattern
 ---
 

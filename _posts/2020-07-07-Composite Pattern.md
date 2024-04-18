@@ -2,9 +2,8 @@
 title: "Design Patterns - Composite Pattern"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
-tags:
   - Design Patterns
+tags:
   - Composite Pattern
 ---
 
