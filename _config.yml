@@ -71,9 +71,15 @@ author:
   #   - label: "GitHub"
   #     icon: "fab fa-fw fa-github"
   #     url: "https://github.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-official"
+      url: "https://www.facebook.com/ojeongm"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/thought_of_jm/"
+      url: "https://www.instagram.com/thought_of_jm/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/jmoh85/"
     
 
 # footer:
