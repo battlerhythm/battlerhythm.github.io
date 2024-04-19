@@ -1,4 +1,6 @@
 main:
+  - title: "Sample"
+    url: /sample/
   - title: "Posts"
     url: /posts/
   - title: "Categories"
@@ -7,3 +9,10 @@ main:
     url: /tags/
   # - title: "About"
   #   url: /about/
+
+# documentation links
+docs:
+  - title: Getting Started
+    children:
+      - title: "Sample"
+        url: /docs/Sample/
