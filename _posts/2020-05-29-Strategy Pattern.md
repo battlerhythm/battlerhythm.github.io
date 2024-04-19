@@ -13,7 +13,7 @@ Key words: Dependency injection
 
 ### Not Good Design  
 
-```mermaid
+<!-- ```mermaid
 ---
 title: Inheritance
 ---
@@ -60,13 +60,13 @@ class RubberDuck {
   display()
   fly()
 }
-```
-<!-- 
-![Inheritance](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/strategy-pattern1.puml) -->
+``` -->
+
+![Inheritance](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/strategy-pattern1.puml)
 
 ### Better Design  
 
-```mermaid
+<!-- ```mermaid
 ---
 title: Composite
 ---
@@ -140,7 +140,9 @@ class NoQuack {
   <<Class>>
   quack()
 }
-```
+``` -->
+
+![Composite](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/strategy-pattern2.puml)
 
 ## Code
 
