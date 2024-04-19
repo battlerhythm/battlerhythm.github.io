@@ -41,6 +41,7 @@ timezone: America/New_York
 
 include:
   - _pages
+  - _includes
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
