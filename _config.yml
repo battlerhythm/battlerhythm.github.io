@@ -125,9 +125,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _sample
   - scope:
       path: ""
-      type: sample
+      type: pages
     values:
       layout: single
       read_time: false
@@ -136,9 +137,6 @@ defaults:
       comments: false
       sidebar:
         nav: "sample"
-
-
-  
 
 category_archive:
   type: liquid
