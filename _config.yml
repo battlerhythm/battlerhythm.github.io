@@ -101,6 +101,12 @@ author:
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
 
+# Collections
+collections:
+  design_patterns:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _posts
   - scope:
@@ -120,6 +126,19 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _design_patterns
+  - scope:
+      path: ""
+      type: design_patterns
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: design_patterns
+
 
 category_archive:
   type: liquid
