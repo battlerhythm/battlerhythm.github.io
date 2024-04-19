@@ -1,6 +1,4 @@
 main:
-  - title: "Design Patterns"
-    url: /design_patterns/sample/
   - title: "Posts"
     url: /posts/
   - title: "Categories"
@@ -9,10 +7,3 @@ main:
     url: /tags/
   # - title: "About"
   #   url: /about/
-
-
-design_patterns:
-  - title: "Design Patterns"
-    children:
-      - title: Sample
-        url: /design_patterns/sample/
