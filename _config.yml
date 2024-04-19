@@ -31,7 +31,7 @@ analytics:
     anonymize_ip: false # default
 
 # Build settings
-markdown: kramdown
+markdown: commonmark
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
