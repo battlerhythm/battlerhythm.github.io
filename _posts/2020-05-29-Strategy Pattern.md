@@ -13,11 +13,134 @@ Key words: Dependency injection
 
 ### Not Good Design  
 
-![Inheritance](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/strategy-pattern1.puml)
+```mermaid
+---
+title: Inheritance
+---
+
+classDiagram
+
+Duck <|-- MountainDuck
+Duck <|-- CityDuck
+Duck <|-- CloudDuck
+Duck <|-- WildDuck
+Duck <|-- RubberDuck
+
+class Duck {
+  <<Class>>
+  quack()
+  display()
+  fly()
+}
+
+class CloudDuck {
+  <<Class>>
+  display()
+  fly()
+}
+
+class MountainDuck {
+  <<Class>>
+  display()
+  fly()
+}
+
+class CityDuck {
+  <<Class>>
+  display()
+}
+
+class WildDuck {
+  <<Class>>
+  display()
+}
+
+class RubberDuck {
+  <<Class>>
+  display()
+  fly()
+}
+```
+<!-- 
+![Inheritance](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/strategy-pattern1.puml) -->
 
 ### Better Design  
 
-![Composite](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/strategy-pattern2.puml)
+```mermaid
+---
+title: Composite
+---
+
+classDiagram
+
+Duck <-- IFlyBehavior
+Duck <-- IQuackBehavior
+Duck <-- IDisplayBehavior
+IFlyBehavior <|-- SimpleFly
+IFlyBehavior <|-- JetFly
+IFlyBehavior <|-- NoFly
+IQuackBehavior <|-- SimpleQuack
+IQuackBehavior <|-- NoQuack
+IDisplayBehavior <|-- DisplayAsText
+IDisplayBehavior <|-- DisplayAsGraphics
+
+class Duck {
+  <<Class>>
+  quack()
+  display()
+  fly()
+}
+
+class IFlyBehavior {
+  <<Interface>>
+  fly()
+}
+
+class IQuackBehavior {
+  <<Interface>>
+  quack()
+}
+
+class IDisplayBehavior {
+  <<Interface>>
+  display()
+}
+
+class SimpleFly {
+  <<Class>>
+  fly()
+}
+
+class JetFly {
+  <<Class>>
+  fly()
+}
+
+class NoFly {
+  <<Class>>
+  fly()
+}
+
+class DisplayAsText {
+  <<Class>>
+  display()
+}
+
+class DisplayAsGraphics {
+  <<Class>>
+  display()
+}
+
+class SimpleQuack {
+  <<Class>>
+  quack()
+}
+
+class NoQuack {
+  <<Class>>
+  quack()
+}
+```
 
 ## Code
 
