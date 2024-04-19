@@ -1,6 +1,6 @@
 main:
   - title: "Sample"
-    url: /sample/
+    url: /docs/Sample/
   - title: "Posts"
     url: /posts/
   - title: "Categories"
