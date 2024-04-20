@@ -31,3 +31,5 @@ design_patterns:
         url: /design_patterns/adapter_pattern/
       - title: "Facade Pattern"
         url: /design_patterns/facade_pattern/
+      - title: "Proxy Pattern"
+        url: /design_patterns/proxy_pattern/
