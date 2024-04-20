@@ -99,7 +99,7 @@ author:
 
 # Collections
 collections:
-  docs:
+  design_patterns:
     output: true
     permalink: /:collection/:path/
 

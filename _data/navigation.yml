@@ -1,6 +1,6 @@
 main:
   - title: "Design Patterns"
-    url: /categories/strategy_pattern/
+    url: /design_patterns/strategy_pattern/
   - title: "Posts"
     url: /posts/
   - title: "Categories"
@@ -12,7 +12,7 @@ main:
 
 # documentation links
 docs:
-  - title: Getting Started
+  - title: "Design Patterns"
     children:
-      - title: "Quick-Start Guide"
-        url: /categories/strategy-pattern/
+      - title: "Strategy Pattern"
+        url: /design_patterns/strategy_pattern/
