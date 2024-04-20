@@ -35,3 +35,5 @@ design_patterns:
         url: /design_patterns/proxy_pattern/
       - title: "Bridge Pattern"
         url: /design_patterns/bridge_pattern/
+      - title: "Structural Patterns"
+        url: /design_patterns/structural_patterns_comparison/
