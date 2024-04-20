@@ -1,12 +1,12 @@
 ---
 title: "Design Patterns - Strategy Pattern"
 permalink: /design_patterns/strategy_pattern/
+toc: true
 excerpt_separator: "<!--more-->"
 categories:
   - Design Patterns
 tags:
   - Strategy Pattern
-toc: true
 ---
 
 Key words: Dependency injection
