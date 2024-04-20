@@ -1,6 +1,4 @@
 main:
-  - title: "Design Patterns"
-    url: /design_patterns/strategy_pattern/
   - title: "Posts"
     url: /posts/
   - title: "Categories"
@@ -9,10 +7,3 @@ main:
     url: /tags/
   # - title: "About"
   #   url: /about/
-
-# documentation links
-docs:
-  - title: "Design Patterns"
-    children:
-      - title: "Strategy Pattern"
-        url: /design_patterns/strategy_pattern/
