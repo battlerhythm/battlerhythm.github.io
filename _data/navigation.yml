@@ -19,3 +19,4 @@ design_patterns:
         url: /design_patterns/observer_pattern/
       - title: "Decorator Pattern"
         url: /design_patterns/decorator_pattern/
+        
