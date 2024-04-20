@@ -21,3 +21,5 @@ design_patterns:
         url: /design_patterns/decorator_pattern/
       - title: "Factory Method Pattern"
         url: /design_patterns/factory_method_pattern/
+      - title: "Abstract Factory Pattern"
+        url: /design_patterns/abstract_factory_pattern/
