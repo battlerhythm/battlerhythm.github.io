@@ -41,3 +41,5 @@ design_patterns:
         url: /design_patterns/template_pattern/
       - title: "Composite Pattern"
         url: /design_patterns/composite_pattern/
+      - title: "Decorator vs Composite Pattern"
+        url: /design_patterns/decorator_vs_composite_pattern/
