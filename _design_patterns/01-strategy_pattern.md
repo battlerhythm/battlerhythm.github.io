@@ -6,6 +6,7 @@ categories:
   - Design Patterns
 tags:
   - Strategy Pattern
+toc: true
 ---
 
 Key words: Dependency injection
