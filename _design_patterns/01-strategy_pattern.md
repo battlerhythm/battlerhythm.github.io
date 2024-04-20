@@ -1,8 +1,8 @@
 ---
 title: "Design Patterns - Strategy Pattern"
 permalink: /design_patterns/strategy_pattern/
-toc: true
 excerpt_separator: "<!--more-->"
+toc: true
 categories:
   - Design Patterns
 tags:

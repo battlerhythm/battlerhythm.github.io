@@ -15,3 +15,5 @@ design_patterns:
     children:
       - title: "Strategy Pattern"
         url: /design_patterns/strategy_pattern/
+      - title: "Observer Pattern"
+        url: /design_patterns/observer_pattern/
