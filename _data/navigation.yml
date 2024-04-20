@@ -25,3 +25,5 @@ design_patterns:
         url: /design_patterns/abstract_factory_pattern/
       - title: "Singleton Pattern"
         url: /design_patterns/singleton_pattern/
+      - title: "Command Pattern"
+        url: /design_patterns/command_pattern/
