@@ -1,6 +1,6 @@
 main:
   - title: "Design Patterns"
-    url: /docs/strategy-pattern/
+    url: /docs/quick-start-guide/
   - title: "Posts"
     url: /posts/
   - title: "Categories"
@@ -15,4 +15,4 @@ docs:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
-        url: /docs/strategy-pattern/
+        url: /docs/quick-start-guide/
