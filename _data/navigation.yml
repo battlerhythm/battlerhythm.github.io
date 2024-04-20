@@ -27,3 +27,5 @@ design_patterns:
         url: /design_patterns/singleton_pattern/
       - title: "Command Pattern"
         url: /design_patterns/command_pattern/
+      - title: "Adapter Pattern"
+        url: /design_patterns/adapter_pattern/
