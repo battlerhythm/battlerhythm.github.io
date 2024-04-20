@@ -29,3 +29,5 @@ design_patterns:
         url: /design_patterns/command_pattern/
       - title: "Adapter Pattern"
         url: /design_patterns/adapter_pattern/
+      - title: "Facade Pattern"
+        url: /design_patterns/facade_pattern/
