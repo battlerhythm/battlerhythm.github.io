@@ -1,6 +1,6 @@
 main:
   - title: "Design Patterns"
-    url: /design_patterns/strategy_pattern/
+    url: /
   # - title: "Posts"
   #   url: /posts/
   # - title: "Categories"
@@ -14,7 +14,7 @@ design_patterns:
   - title: "Design Patterns"
     children:
       - title: "Strategy Pattern"
-        url: /design_patterns/strategy_pattern/
+        url: /
       - title: "Observer Pattern"
         url: /design_patterns/observer_pattern/
       - title: "Decorator Pattern"

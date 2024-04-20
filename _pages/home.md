@@ -1,4 +1,6 @@
 ---
-permalink: /
 title: "Home"
+permalink: /
+hidden: true
+
 ---
