@@ -127,8 +127,12 @@ defaults:
       type: design_patterns
     values:
       layout: single
+      read_time: false
       author_profile: false
-      share: true
+      share: false
+      comments: false
+      sidebar:
+        nav: "design_patterns"
 
 # Outputting
 permalink: /:categories/:title/

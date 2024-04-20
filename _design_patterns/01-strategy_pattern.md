@@ -1,5 +1,6 @@
 ---
 title: "Design Patterns - Strategy Pattern"
+permalink: /design_patterns/strategy_pattern/
 excerpt_separator: "<!--more-->"
 categories:
   - Design Patterns
