@@ -1,12 +1,12 @@
 main:
   - title: "Design Patterns"
     url: /design_patterns/strategy_pattern/
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  # - title: "Posts"
+  #   url: /posts/
+  # - title: "Categories"
+  #   url: /categories/
+  # - title: "Tags"
+  #   url: /tags/
   # - title: "About"
   #   url: /about/
 
