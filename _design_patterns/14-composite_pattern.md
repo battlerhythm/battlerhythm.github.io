@@ -15,7 +15,7 @@ Key words: Tree like hierarchy
 
 ### Composite Pattern
 
-![Composite1](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/composite-pattern1.puml)
+![Composite1]({{ "/assets/images/umls/composite-pattern1.png" | relative_url }})
 
 ```html
 <ul>
@@ -31,7 +31,7 @@ Key words: Tree like hierarchy
 </ul>
 ```
 
-![Composite2](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/composite-pattern2.puml)
+![Composite2]({{ "/assets/images/umls/composite-pattern2.png" | relative_url }})
 
 ## Pseudo Code
 

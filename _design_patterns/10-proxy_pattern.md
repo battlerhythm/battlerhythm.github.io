@@ -19,7 +19,7 @@ Protection - Security
 
 ### Proxy Pattern
 
-![Proxy](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/proxy-pattern.puml)
+![Proxy]({{ "/assets/images/umls/proxy-pattern.png" | relative_url }})
 
 ## Pseudo Code
 

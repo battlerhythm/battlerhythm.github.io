@@ -13,7 +13,7 @@ Key words:
 
 ### Command Pattern
 
-![Command](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/command-pattern.puml)
+![Command]({{ "/assets/images/umls/command-pattern.png" | relative_url }})
 
 ## Pseudo Code
 

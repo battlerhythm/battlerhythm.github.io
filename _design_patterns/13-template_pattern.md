@@ -15,7 +15,7 @@ Key words: Hook
 
 ### Template Pattern
 
-![Template](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/template-pattern.puml)
+![Template]({{ "/assets/images/umls/template-pattern.png" | relative_url }})
 
 ## Pseudo Code
 

@@ -16,11 +16,11 @@ Key words: Decorator decorate one thing. Composite can have leaves
 
 ### Decorator Pattern
 
-![Decorator](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/decorator-composite1.puml)
+![Decorator]({{ "/assets/images/umls/decorator-composite1.png" | relative_url }})
 
 ### Composite Pattern
 
-![Composite](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/decorator-composite2.puml)
+![Composite]({{ "/assets/images/umls/decorator-composite2.png" | relative_url }})
 
 ## Reference
 

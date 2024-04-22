@@ -15,7 +15,7 @@ Key words: Global access point of the instance, Code Smell
 
 ### Singleton Pattern
 
-![Singleton](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/singleton-pattern.puml)
+![Singleton]({{ "/assets/images/umls/singleton-pattern.png" | relative_url }})
 
 ## Pseudo Code
 
