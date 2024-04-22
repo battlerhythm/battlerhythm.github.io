@@ -15,7 +15,7 @@ Key words: Complicated instantiation, Polymorphism
 
 ### Factory Method Pattern
 
-![Factory Method](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/factory-method-pattern.puml)
+![Factory Method]({{ "/assets/images/umls/factory-method-pattern.png" | relative_url }})
 
 ## Reference
 
