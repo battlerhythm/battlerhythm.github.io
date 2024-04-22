@@ -62,7 +62,7 @@ class RubberDuck {
 }
 ``` -->
 
-![Inheritance](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/strategy-pattern1.puml)
+![Inheritance]({{ "/assets/images/umls/strategy-pattern1.png" | relative_url }})
 
 ### Better Design  
 
@@ -142,7 +142,7 @@ class NoQuack {
 }
 ``` -->
 
-![Composite](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/strategy-pattern2.puml)
+![Composite]({{ "/assets/images/umls/strategy-pattern2.png" | relative_url }})
 
 ## Code
 

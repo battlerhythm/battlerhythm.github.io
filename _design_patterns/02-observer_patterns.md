@@ -15,7 +15,7 @@ Key words: Push vs Poll
 
 ### Better Design
 
-![Observer](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/observer-pattern.puml)
+![Observer]({{ "/assets/images/umls/observer-pattern.png" | relative_url }})
 
 ## Pseudo Code
 
