@@ -13,11 +13,11 @@ Key words: Class explosion, Recursive function, Deprecated function
 
 ### Not Good Design
 
-![Classes](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/decorator-pattern1.puml)
+![Classes]({{ "/assets/images/umls/decorator-pattern1.png" | relative_url }})
 
 ### Better Design
 
-![Decorator](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/battlerhythm/battlerhythm.github.io/master/assets/umls/decorator-pattern2.puml)
+![Decorator]({{ "/assets/images/umls/decorator-pattern2.png" | relative_url }})
 
 ## Pseudo Code
 
