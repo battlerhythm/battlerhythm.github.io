@@ -65,7 +65,7 @@ class RubberDuck {
 }
 ``` -->
 
-![Inheritance]({{ "/assets/images/umls/strategy-pattern1" | relative_url }})
+![Inheritance]({{ "/assets/images/umls/strategy-pattern1.png" | relative_url }})
 
 ### Better Design  
 
@@ -145,7 +145,7 @@ class NoQuack {
 }
 ``` -->
 
-![Composite]({{ "/assets/images/umls/strategy-pattern2" | relative_url }})
+![Composite]({{ "/assets/images/umls/strategy-pattern2.png" | relative_url }})
 
 ## Code
 
