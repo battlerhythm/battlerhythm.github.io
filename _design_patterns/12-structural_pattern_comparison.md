@@ -13,7 +13,7 @@ tags:
 
 Decorator pattern extends behavior by decorating component.
 
-## [Strategy (Behavioral)](https://battlerhythm.github.io/design_patterns/strategy_pattern/)
+## [Strategy (Behavioral)](https://battlerhythm.github.io/)
 
 The intent of the Strategy pattern is to define a set of algorithms or a family of algorithms where you can exchange one of the algorithms for the other you can vary the algorithms independently from the context of the things that uses the algorithms.
 
