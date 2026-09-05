@@ -6,7 +6,7 @@
 {%- assign current = d.module -%}
 <div class="map-module"><div class="map-module__head"><span class="map-module__id">{{ d.module }}</span><span class="map-module__title">{{ d.module_title }}</span><span class="map-module__sessions">Session {{ d.session }}</span></div><table class="map-table"><tbody>
 {%- endif -%}
-<tr><td class="map-name"><a href="{{ d.url | relative_url }}">{{ d.title }}</a></td><td>{{ d.intent }}</td><td class="map-status">
+<tr><td class="map-name"><a href="{{ d.url | relative_url }}">{{ d.title }}</a></td><td>{{ d.intent | markdownify | remove: "<p>" | remove: "</p>" | strip }}</td><td class="map-status">
 {%- if d.kotlin == "intact" -%}<span class="pm-chip pm-chip--intact">as-is</span>
 {%- elsif d.kotlin == "reshaped" -%}<span class="pm-chip pm-chip--reshaped">reshaped</span>
 {%- elsif d.kotlin == "replaced" -%}<span class="pm-chip pm-chip--replaced">replaced</span>

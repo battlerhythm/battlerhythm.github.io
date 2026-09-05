@@ -10,9 +10,9 @@
     {%- if page.status == "outline" %}<span class="pm-chip pm-chip--outline">Outline</span>{% endif -%}
   </div>
   {%- if page.intent %}
-  <p class="pattern-meta__intent"><strong>Intent.</strong> {{ page.intent }}</p>
+  <p class="pattern-meta__intent"><strong>Intent.</strong> {{ page.intent | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
   {%- endif -%}
   {%- if page.kotlin_feature and page.kotlin_feature != "" %}
-  <p class="pattern-meta__kotlin"><strong>In Kotlin.</strong> {{ page.kotlin_feature }}</p>
+  <p class="pattern-meta__kotlin"><strong>In Kotlin.</strong> {{ page.kotlin_feature | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
   {%- endif %}
 </div>

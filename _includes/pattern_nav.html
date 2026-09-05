@@ -17,7 +17,7 @@
 {%- for slug in page.confused_with -%}
   {%- for d in site.design_patterns -%}
     {%- if d.slug == slug %}
-  <li><a href="{{ d.url | relative_url }}">{{ d.title }}</a> &mdash; {{ d.intent }}</li>
+  <li><a href="{{ d.url | relative_url }}">{{ d.title }}</a> &mdash; {{ d.intent | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>
     {%- endif -%}
   {%- endfor -%}
 {%- endfor %}
