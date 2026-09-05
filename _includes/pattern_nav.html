@@ -1,0 +1,34 @@
+{%- assign ordered = site.design_patterns | sort: "order" -%}
+{%- assign prev = nil -%}
+{%- assign next = nil -%}
+{%- assign seen = false -%}
+{%- assign last = nil -%}
+{%- for d in ordered -%}
+  {%- if seen and next == nil -%}{%- assign next = d -%}{%- endif -%}
+  {%- if d.url == page.url -%}{%- assign seen = true -%}{%- assign prev = last -%}{%- endif -%}
+  {%- assign last = d -%}
+{%- endfor -%}
+
+{%- if page.confused_with and page.confused_with.size > 0 %}
+<h2 id="telling-it-apart">Telling It Apart</h2>
+<p>Patterns whose structure looks the same but whose intent does not. See the
+<a href="{{ '/design_patterns/confusing-pairs/' | relative_url }}">Confusing Pairs</a> reference.</p>
+<ul class="pattern-neighbors">
+{%- for slug in page.confused_with -%}
+  {%- for d in site.design_patterns -%}
+    {%- if d.slug == slug %}
+  <li><a href="{{ d.url | relative_url }}">{{ d.title }}</a> &mdash; {{ d.intent }}</li>
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor %}
+</ul>
+{%- endif %}
+
+<nav class="pattern-pager">
+  <div class="pattern-pager__prev">
+    {%- if prev %}<a href="{{ prev.url | relative_url }}">&larr; {{ prev.title }}</a>{% endif -%}
+  </div>
+  <div class="pattern-pager__next">
+    {%- if next %}<a href="{{ next.url | relative_url }}">{{ next.title }} &rarr;</a>{% endif -%}
+  </div>
+</nav>

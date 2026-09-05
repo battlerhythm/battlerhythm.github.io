@@ -53,12 +53,12 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 author:
   name: "Jeongmin Oh"
@@ -126,7 +126,9 @@ defaults:
       path: ""
       type: design_patterns
     values:
-      layout: single
+      layout: pattern
+      toc: true
+      toc_sticky: true
       read_time: false
       author_profile: false
       share: false
@@ -136,8 +138,6 @@ defaults:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: America/New_York
 
 category_archive:

@@ -1,0 +1,18 @@
+{%- assign k = page.kotlin -%}
+<div class="pattern-meta">
+  <div class="pattern-meta__row">
+    <span class="pm-chip pm-chip--module">{{ page.module }} &middot; {{ page.module_title }}</span>
+    {%- if page.session %}<span class="pm-chip">Session {{ page.session }}</span>{% endif -%}
+    {%- if page.gof %}<span class="pm-chip pm-chip--{{ page.gof | downcase }}">{{ page.gof }}</span>{% endif -%}
+    {%- if k == "replaced" %}<span class="pm-chip pm-chip--replaced">Kotlin replaces it</span>
+    {%- elsif k == "reshaped" %}<span class="pm-chip pm-chip--reshaped">Reshaped in Kotlin</span>
+    {%- elsif k == "intact" %}<span class="pm-chip pm-chip--intact">Still needed as-is</span>{% endif -%}
+    {%- if page.status == "outline" %}<span class="pm-chip pm-chip--outline">Outline</span>{% endif -%}
+  </div>
+  {%- if page.intent %}
+  <p class="pattern-meta__intent"><strong>Intent.</strong> {{ page.intent }}</p>
+  {%- endif -%}
+  {%- if page.kotlin_feature and page.kotlin_feature != "" %}
+  <p class="pattern-meta__kotlin"><strong>In Kotlin.</strong> {{ page.kotlin_feature }}</p>
+  {%- endif %}
+</div>
