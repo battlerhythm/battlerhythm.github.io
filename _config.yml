@@ -101,6 +101,9 @@ collections:
   design_patterns:
     output: true
     permalink: /:collection/:path/
+  changing_code:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _posts
@@ -121,12 +124,26 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _changing_code
+  - scope:
+      path: ""
+      type: changing_code
+    values:
+      layout: series
+      toc: true
+      toc_sticky: true
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "changing_code"
   # _design_patterns
   - scope:
       path: ""
       type: design_patterns
     values:
-      layout: pattern
+      layout: series
       toc: true
       toc_sticky: true
       read_time: false

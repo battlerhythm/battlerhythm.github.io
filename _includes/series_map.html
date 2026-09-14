@@ -1,4 +1,4 @@
-{%- assign ordered = site.design_patterns | sort: "order" -%}
+{%- assign ordered = site.documents | where: "collection", include.collection | sort: "order" -%}
 {%- assign current = "" -%}
 {%- for d in ordered -%}
 {%- if d.module != current -%}

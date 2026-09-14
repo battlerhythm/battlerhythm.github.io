@@ -1,9 +1,11 @@
-# Sidebar navigation for the design-patterns collection is GENERATED, not listed here.
-# See _includes/nav_list — it walks site.design_patterns sorted by `order` and groups by `module`.
-# Adding a new pattern post is enough; nothing here needs to change.
+# Sidebar navigation for both series is GENERATED, not listed here.
+# See _includes/nav_list — it walks site.documents filtered by collection, sorted by `order`,
+# grouped by `module`. Adding a post is enough; nothing here needs to change.
 
 main:
-  - title: "Learning Map"
-    url: /
+  - title: "Design Patterns"
+    url: /design_patterns/
+  - title: "Code You Can Change"
+    url: /changing_code/
   - title: "Confusing Pairs"
     url: /design_patterns/confusing-pairs/

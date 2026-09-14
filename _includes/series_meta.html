@@ -7,6 +7,7 @@
     {%- if k == "replaced" %}<span class="pm-chip pm-chip--replaced">Kotlin replaces it</span>
     {%- elsif k == "reshaped" %}<span class="pm-chip pm-chip--reshaped">Reshaped in Kotlin</span>
     {%- elsif k == "intact" %}<span class="pm-chip pm-chip--intact">Still needed as-is</span>{% endif -%}
+    {%- if page.source %}<span class="pm-chip pm-chip--source">{{ page.source }}</span>{% endif -%}
     {%- if page.status == "outline" %}<span class="pm-chip pm-chip--outline">Outline</span>{% endif -%}
   </div>
   {%- if page.intent %}

@@ -1,4 +1,4 @@
-{%- assign ordered = site.design_patterns | sort: "order" -%}
+{%- assign ordered = site.documents | where: "collection", page.collection | sort: "order" -%}
 {%- assign prev = nil -%}
 {%- assign next = nil -%}
 {%- assign seen = false -%}
@@ -15,7 +15,7 @@
 <a href="{{ '/design_patterns/confusing-pairs/' | relative_url }}">Confusing Pairs</a> reference.</p>
 <ul class="pattern-neighbors">
 {%- for slug in page.confused_with -%}
-  {%- for d in site.design_patterns -%}
+  {%- for d in ordered -%}
     {%- if d.slug == slug %}
   <li><a href="{{ d.url | relative_url }}">{{ d.title }}</a> &mdash; {{ d.intent | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>
     {%- endif -%}
