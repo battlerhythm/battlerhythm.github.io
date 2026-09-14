@@ -18,7 +18,9 @@ The Gang of Four's twenty-three, reordered so the patterns that are easiest to c
 
 SOLID, legacy code, and refactoring -- with the two canonical books put in direct conflict where they disagree, which is the most instructive thing in this area. The subject is not clean code; it is **changeable** code, and the difference is measurable.
 
-Sixteen posts, seven modules, ending in [a one-page procedure]({{ "/changing_code/m6-one-page/" | relative_url }}) for the moment you are actually afraid of a file.
+Ends in [a one-page procedure]({{ "/changing_code/m6-one-page/" | relative_url }}) for the moment you are actually afraid of a file.
+
+*16 posts · complete*
 
 ---
 
