@@ -31,7 +31,7 @@ When two patterns draw the same diagram, the thing that separates them is always
 | **Builder vs Abstract Factory** | The **construction process** is complex versus **which kind** to construct. |
 | **Observer vs Mediator** | The publisher **knows nothing** versus the hub **knows everyone**. |
 | **Command vs Strategy** | Objectifies the **request** (undo, queueing) versus objectifies the **algorithm**. |
-| **Visitor vs sealed + `when`** | New operations are cheap versus **new types are cheap**. Opposite ends of the Expression Problem. |
+| **Visitor vs sealed + `when`** | **Not opposites.** Both make operations cheap and variants expensive; `when` is Visitor with the compiler doing the bookkeeping. The opposite of Visitor is virtual methods on the nodes. |
 
 ## The four wrappers
 

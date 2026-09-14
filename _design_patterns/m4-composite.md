@@ -96,7 +96,7 @@ Child management lives only where children exist, so there is no lying leaf. Cli
 
 **That is safety and transparency at once, which GoF could not have.** It is the clearest example in the catalog of a language feature dissolving a documented trade-off rather than merely shortening the code.
 
-Worth noting the price, because it is the same one every sealed hierarchy pays: adding a *node type* is now cheap and checked, while adding an *operation* means a new function with a new `when`. That is the [Visitor]({{ "/design_patterns/m4-visitor/" | relative_url }}) trade in reverse, and it is the next session.
+Worth noting the price, because every sealed hierarchy pays it: adding an *operation* is cheap -- one more function with one more `when` -- while adding a *node type* means every existing `when` has to change. The compiler names them all, which makes that direction manageable rather than free. That is the [Visitor]({{ "/design_patterns/m4-visitor/" | relative_url }}) trade-off rather than its reverse, and the next session is about why the two land on the same side.
 
 ## The traps
 
