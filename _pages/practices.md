@@ -45,6 +45,8 @@ Prefer, in this order, before reaching for a pattern:
 | Inheritance for reuse | interface + `by` delegation |
 | Builder | named + default arguments, or `data class` + `copy()` |
 | Singleton holding state | a value passed in; `object` only for stateless, I/O-free namespaces |
+| Several Boolean flags describing one state | a `sealed` hierarchy -- illegal combinations become unrepresentable |
+| A hand-rolled listener interface | `Flow` / `StateFlow` / `SharedFlow` |
 | Wrapper class for one behavior | an extension function |
 
 <https://battlerhythm.github.io/design_patterns/>
@@ -55,7 +57,10 @@ Prefer, in this order, before reaching for a pattern:
 If they have to read the body to use it, the boundary is decorative whatever the diagram says.
 Depth is functionality divided by interface: prefer the smaller interface over the larger one
 covering the same work, and treat a class that is mostly pass-through methods as having none.
-<https://battlerhythm.github.io/changing_code/m2-deep-modules/>
+And ask who will request changes to it: a module that answers to two different people will be
+pulled apart by them, whatever its cohesion looks like today.
+<https://battlerhythm.github.io/changing_code/m2-deep-modules/> ·
+<https://battlerhythm.github.io/changing_code/m1-srp/>
 
 ### Before changing code that has no tests
 

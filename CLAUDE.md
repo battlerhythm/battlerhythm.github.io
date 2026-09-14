@@ -115,6 +115,16 @@ print("ok:", len(docs), "posts")
 PY
 ```
 
+## When a module is finished
+
+`_pages/practices.md` is the hand-curated extract of both series -- the rules a coding agent gets
+wrong by default, and nothing else. It does not update itself.
+
+When the last post of a module moves to `status: complete`, ask one question: **did a rule emerge
+that an agent would get wrong without it?** If yes, add it to `_pages/practices.md` with a link to
+the post that earned it. If no, add nothing. Most modules produce none -- that is expected, and a
+Practices page that grows with the blog has stopped being short enough to hold.
+
 ## Things that will bite you
 
 - `paginate` was removed from `_config.yml`. It was dead config (no `_posts`), and
