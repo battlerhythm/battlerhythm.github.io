@@ -22,6 +22,11 @@ Sixteen posts, seven modules, ending in [a one-page procedure]({{ "/changing_cod
 
 ---
 
+*Coding agents: read [**Practices**]({{ "/practices/" | relative_url }}) before writing or changing code —
+the conclusions from both series as decision rules, without the argument.*
+
+---
+
 Three principles run under both:
 
 1. **Program to an interface, not an implementation.**
